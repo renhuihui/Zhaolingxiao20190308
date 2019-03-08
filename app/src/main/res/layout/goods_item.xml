@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_height="wrap_content">
+    <CheckBox
+        android:id="@+id/checkbox_goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/imageView_goods"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_goods"
+            android:layout_width="wrap_content"
+            android:textSize="18sp"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/text_price"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/colorAccent"
+                android:layout_height="wrap_content" />
+            <com.bwei.zhaolingxiao20190308.view.adapter.Calcultor
+                android:id="@+id/calcultor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></com.bwei.zhaolingxiao20190308.view.adapter.Calcultor>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

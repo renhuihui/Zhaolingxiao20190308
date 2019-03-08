@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转" />
+    </LinearLayout>
+
+    <com.bwei.zhaolingxiao20190308.view.zidingyi.LiuLayout
+        android:id="@+id/liuLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"></com.bwei.zhaolingxiao20190308.view.zidingyi.LiuLayout>
+
+    <Button
+        android:id="@+id/buttoncle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="清空" />
+
+</LinearLayout>
